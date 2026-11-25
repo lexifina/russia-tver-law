@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T14:59:31Z",
+ "generated": "2026-11-25T07:03:20Z",
  "latest": {
   "pravo-tver|russia/tver/acts": {
    "attempt": 1,
@@ -13,42 +13,25 @@
    },
    "census": {
     "checked": 1185,
-    "current": 1173,
+    "current": 1185,
     "gone": 0,
-    "held": 1173,
-    "newest_in_repo": "2026-10-07",
-    "pending": 12,
-    "repo": 1173,
+    "held": 1185,
+    "newest_in_repo": "2026-11-21",
+    "pending": 0,
+    "repo": 1185,
     "source_in_scope": 1185
    },
-   "check_id": "ru-pravo-tver-20261124T145810Z",
-   "commits": {
-    "count": 3,
-    "from": "3d572d63b553256af636ad909e9d47a0016c8905",
-    "to": "199b1a213dcc5fd3abdb0b711069756a61d57118"
-   },
+   "check_id": "ru-pravo-tver-20261125T064224Z",
+   "commits": null,
    "corpus": "russia/tver/acts",
    "error": null,
-   "finished": "2026-11-24T14:59:30Z",
+   "finished": "2026-11-25T06:43:04Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region69: 1185 law-type documents listed (every page read); 1173 held here; 12 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "changed",
+   "note": "publication.pravo.gov.ru, block region69: 1185 law-type documents listed (every page read); 1185 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
    "published": {
-    "added": [
-     "6900202611100001",
-     "6900202611100002",
-     "6900202611100003",
-     "6900202611100008",
-     "6900202611100009",
-     "6900202611100010",
-     "6900202611100011",
-     "6900202611100012",
-     "6900202611100013",
-     "6900202611100014",
-     "6900202611100015",
-     "6900202611210001"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
@@ -56,39 +39,16 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [
-     "6900202611100001",
-     "6900202611100002",
-     "6900202611100003",
-     "6900202611100008",
-     "6900202611100009",
-     "6900202611100010",
-     "6900202611100011",
-     "6900202611100012",
-     "6900202611100013",
-     "6900202611100014",
-     "6900202611100015",
-     "6900202611210001"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
    "snapshot": "1185 law-type documents in block region69; newest published 2026-11-21",
    "source": "pravo-tver",
-   "started": "2026-11-24T14:58:10Z",
+   "started": "2026-11-25T06:42:24Z",
    "unexplained": 0,
    "update": {
-    "append": {
-     "commits": 2,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
-     "new_acts": []
-    },
-    "parts": [
-     "95-watch-20261124-001.json"
-    ]
+    "parts": []
    },
    "verify": {
     "cycle_days": 1,
